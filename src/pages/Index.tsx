@@ -889,7 +889,7 @@ const Testimonials = () => {
       name: "Marcos Oliveira",
       date: "Há 2 dias",
       avatar: "M",
-      text: "Processo incrivelmente simples e rápido! Enviei meu cartão Alelo e recebi o Pix em menos de 20 horas. Plataforma muito segura.",
+      text: "Processo incrivelmente simples e rápido! Enviei meu cartão Alelo e recebi o Pix em menos de 8 minutos. Plataforma muito segura.",
       rating: 5
     },
     {
@@ -903,7 +903,7 @@ const Testimonials = () => {
       name: "Rafael Costa",
       date: "Há 1 semana",
       avatar: "R",
-      text: "Achei que ia ser complicado mas foi surpreendentemente fácil! Em menos de 24h o dinheiro estava na minha conta. Serviço de confiança.",
+      text: "Achei que ia ser complicado mas foi surpreendentemente fácil! Em menos de 10 minutos o dinheiro estava na minha conta. Serviço de confiança.",
       rating: 5
     }
   ];
@@ -980,7 +980,7 @@ export default function Index() {
 
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             {[
-              { icon: <CheckCircle className="w-4 h-4" />, text: "Aprovação em até 24h" },
+              { icon: <CheckCircle className="w-4 h-4" />, text: "Aprovação em até 10 minutos" },
               { icon: <Shield className="w-4 h-4" />, text: "100% Seguro" },
               { icon: <Monitor className="w-4 h-4" />, text: "Processo Online" },
               { icon: <Percent className="w-4 h-4" />, text: "Sem taxas ocultas" }
@@ -1070,7 +1070,7 @@ export default function Index() {
                 step: "2", 
                 title: "Solicitação em Análise", 
                 desc: "Nossa equipe analisa sua solicitação. Aguarde o e-mail de confirmação.",
-                tag: "Até 24 horas" 
+                tag: "Até 10 minutos o seu Pix na conta" 
               },
               { 
                 step: "3", 
