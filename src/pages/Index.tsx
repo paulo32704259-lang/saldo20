@@ -791,7 +791,7 @@ const ConversionForm = () => {
                 <div className="bg-emerald-50 p-4 rounded-lg border border-emerald-100 flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="bg-white p-2 rounded shadow-sm">
-                      <img src="https://refeipay.com.br/image/pix.png" alt="Pix" className="h-6" />
+                      <img src="https://ibb.co/YBbZ3Qv7" alt="Pix" className="h-6" />
                     </div>
                     <span className="font-bold text-emerald-900">Pix</span>
                   </div>
