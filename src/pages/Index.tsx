@@ -812,10 +812,10 @@ const ConversionForm = () => {
                     />
                   </div>
                   <div className="flex justify-between items-center text-xs text-gray-500">
-                    <span>Taxa de conversão: 5%</span>
+                    <span>Taxa de conversão: 10%</span>
                     {formData.amount && !isNaN(parseFloat(formData.amount.replace(',', '.'))) && (
                       <span className="text-emerald-600 font-bold">
-                        Você receberá: R$ {(parseFloat(formData.amount.replace(',', '.')) * 0.95).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                        Você receberá: R$ {(parseFloat(formData.amount.replace(',', '.')) * 0.90).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                       </span>
                     )}
                   </div>
